@@ -2,8 +2,12 @@
 1. In the root directory run `yarn install` or `npm install`
 
 #### iOS Simulator
-2.  `cd` into the `ios/` directory and run `pod install`
-3.  In the root directory, run `yarn run ios` or `npm run ios`
+2.  `cd ios` directory and run `pod install`
+3. `cd ../`
+3.  run `yarn run ios` or `npm run ios`
+4. If (3) doesn't work: 
+  1. `cd ios`
+  2. `open Nifty.xcworkspace` to trigger XCode and run from tehre directly
 
 #### Android
 2. Use physical device (preferred)
